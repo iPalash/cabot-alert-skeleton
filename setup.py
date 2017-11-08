@@ -9,5 +9,4 @@ setup(name='cabot-alert-skeleton',
       author_email='info@arachnys.com',
       url='http://cabotapp.com',
       packages=find_packages(),
-      download_url = 'https://github.com/cabotapp/cabot-alert-skeleton/tarball/1.0.0',
      )
