@@ -3,3 +3,4 @@ dist/
 cabot_alert_skeleton.egg-info/
 build/*
 *.sw?
+.DS_Store
