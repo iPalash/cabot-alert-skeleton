@@ -55,10 +55,10 @@ class SkeletonAlert(AlertPlugin):
             'scheme': settings.WWW_SCHEME,
             'alert': alert,
         })
-        message = Template(cabot_template).render(c)
+        message = Template(cachet_template).render(c)
         if alert:
             self._send_cachet_alert(message, service, color=color, sender='Cabot')
 
         return True
-    def _send_cabot_alert(message, service,color, sender):
+    def _send_cachet_alert(message, service,color, sender):
         logger.info(message)
