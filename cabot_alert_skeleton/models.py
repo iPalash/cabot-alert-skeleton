@@ -60,5 +60,5 @@ class SkeletonAlert(AlertPlugin):
             self._send_cachet_alert(message, service, color,'Cabot')
 
         return True
-    def _send_cachet_alert(message, service, color, sender):
+    def _send_cachet_alert(self, message, service, color, sender):
         logger.info(message)
