@@ -55,7 +55,7 @@ class SkeletonAlert(AlertPlugin):
             'scheme': settings.WWW_SCHEME,
             'alert': alert,
         })
-        message = Template(slack_template).render(c)
+        message = Template(cabot_template).render(c)
         if alert:
             self._send_cabot_alert(message, service, color=color, sender='Cabot')
 
