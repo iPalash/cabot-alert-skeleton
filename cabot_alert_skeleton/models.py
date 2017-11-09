@@ -1,6 +1,7 @@
 from django.db import models
 from cabot.cabotapp.alert import AlertPluginUserData, AlertPlugin
 from os import environ as env
+from django.template import Context, Template
 
 from logging import getLogger
 logger = getLogger(__name__)
